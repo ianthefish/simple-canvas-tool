@@ -773,7 +773,11 @@ class Simple_Draw {
             thickness_tool.style.border = (panel.style.display === 'none')? 'none':4*this.scale + `px solid ${this.select_color}`;
         });
     }
-    
+
+    //this returns a base64 image string of the canvas
+    getCanvasImage() {
+        return this.canvas.toDataURL(); 
+    }
 }
 
 // export default Simple_Draw;
