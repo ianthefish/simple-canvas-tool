@@ -11,7 +11,6 @@ The **Simple Canvas Tool** is a versatile and easy-to-use drawing tool for websi
 - **Shape Tools**: Draw rectangles, circles, and hollow versions of these shapes.
 - **Clear Tool**: Clear the entire canvas.
 - **Undo/Redo**: Undo and redo your actions.
-- **Color Picker**: Choose colors from a palette or use a custom color picker.
 - **Stroke Thickness**: Adjust the thickness of the brush and other tools.
 
 ## Installation
