@@ -33,21 +33,20 @@ export default Simple_Draw;
 
 // Import the Simple_Draw class in your React component
 import Simple_Draw from './path/to/canvas-draw.js';
+import { useEffect } from 'react';
 
-class CanvasComponent extends React.Component {
-    componentDidMount() {
+const CanvasComponent = () => {
+    useEffect(() => {
         new Simple_Draw('canvas-container');
-    }
+    }, []);
 
-    render() {
-        return (
-            <div>
-                <h2>Draw on the Canvas</h2>
-                <div id="canvas-container"></div>
-            </div>
-        );
-    }
-}
+    return (
+        <div>
+            <h2>Draw on the Canvas</h2>
+            <div id="canvas-container"></div>
+        </div>
+    );
+};
 
 export default CanvasComponent;
 ```
@@ -134,4 +133,8 @@ new Simple_Draw(containerId, resolution = 540, scale = 0.5, maxHistory = 51)
 ## License
 
 This project is licensed under the **MIT License**.
+
+---
+
+This README provides an overview of the **Simple Canvas Tool**, including its features, installation instructions, usage examples, and API documentation. It also includes instructions for using the `Simple_Draw` class in a React application.
 
