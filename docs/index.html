@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Draw Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Draw on the Canvas</h2>
+
+    <div class="container">
+        <div class="canvas-wrapper">
+            <div id="canvas-container"></div>
+            <button id="showImageBtn">Show Image</button>
+        </div>
+        <div id="image-container"></div>
+    </div>
+
+    <script src="../canvas-draw.js"></script>
+    <script>
+        const drawApp = new Simple_Draw('canvas-container', resolution = 540, scale = 0.5, maxHistory = 51);
+
+        function updateCanvasImage() {
+            const canvasImage = drawApp.getCanvasImage();
+            const imgElement = document.createElement('img');
+            imgElement.src = canvasImage;
+            imgElement.classList.add('preview-image');
+
+            const imageContainer = document.getElementById('image-container');
+            imageContainer.innerHTML = '';
+            imageContainer.appendChild(imgElement);
+        }
+
+        document.getElementById('showImageBtn').addEventListener('click', updateCanvasImage);
+    </script>
+</body>
+</html>
