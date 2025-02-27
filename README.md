@@ -1,6 +1,6 @@
 # Simple Canvas Tool
 
-The **Simple Canvas Tool** is a versatile and easy-to-use drawing tool for websites. It provides various drawing tools and features, making it suitable for creating and editing images directly in the browser.
+The **Simple Canvas Tool** is a versatile and easy-to-use drawing tool for websites. It provides various drawing tools and features, making it suitable for creating images directly in the browser.
 ![image](./img/canvas_photo.png)
 
 ## Features
@@ -133,8 +133,4 @@ new Simple_Draw(containerId, resolution = 540, scale = 0.5, maxHistory = 51)
 ## License
 
 This project is licensed under the **MIT License**.
-
----
-
-This README provides an overview of the **Simple Canvas Tool**, including its features, installation instructions, usage examples, and API documentation. It also includes instructions for using the `Simple_Draw` class in a React application.
 
