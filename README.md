@@ -1,6 +1,7 @@
 # Simple Canvas Tool
 
 The **Simple Canvas Tool** is a versatile and easy-to-use drawing tool for websites. It provides various drawing tools and features, making it suitable for creating and editing images directly in the browser.
+![image](./img/canvas_photo.png)
 
 ## Features
 
