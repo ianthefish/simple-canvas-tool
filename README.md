@@ -1,6 +1,6 @@
 # Simple Canvas Tool
 
-The **Simple Canvas Tool** is a versatile and easy-to-use drawing tool for websites. It provides various drawing tools and features, making it suitable for creating images directly in the browser.
+The **Simple Canvas Tool** is a versatile and easy-to-use canvas drawing tool made by javascipt and create the drawing area for your website. It provides various drawing tools and features, making it suitable for creating images directly in the browser.
 🎨 [Click here to see the demo](https://ianthefish.github.io/simple-canvas-tool/)
 ![image](./img/canvas_photo.png)
 
